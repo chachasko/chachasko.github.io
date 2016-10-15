@@ -16,12 +16,12 @@
      <a-sky src="#photosphere"></a-sky>
 
 	<a-entity camera="userHeight: 1.6" look-controls></a-entity>
-
+		<a-entity cursor="fuse: true; fuseTimeout: 500"
+		    position="0 0 -1"
+		    geometry="primitive: ring"
+		    material="color: black; shader: flat">
 	<a-entity camera>
-  <a-entity cursor="fuse: true; fuseTimeout: 500"
-            position="0 0 -1"
-            geometry="primitive: ring"
-            material="color: black; shader: flat">
+  
   </a-entity>
 </a-entity>
 <a-entity id="box" cursor-listener geometry="primitive: box" material="color: blue"></a-entity>
